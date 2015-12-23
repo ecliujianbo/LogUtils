@@ -5,7 +5,7 @@ import android.util.Log;
 /**
  * 调试程序信息,通过双击log日志，跳转到源码相应的位置
  *
- * 通过LogUtil.TAG来设置过滤的TAG
+ * 通过LogUtil.TAG来设置过滤的TAG标志
  * 
  * @author liu 2013-6-5
  */
