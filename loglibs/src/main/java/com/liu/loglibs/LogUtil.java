@@ -13,7 +13,7 @@ public class LogUtil {
 
 	public static String TAG = "liu";
 
-	public final static boolean DEBUG = true;
+	public  static boolean DEBUG = true;
 
 	public static void logV(String strLog) {
 		if (DEBUG) {
