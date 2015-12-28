@@ -6,9 +6,9 @@
     2，LogUtil.DEBUG     修改是否开启日志(默认true)
 
 #config
-    Step 1. Add the JitPack repository to your build file
+    ####Step 1. Add the JitPack repository to your build file
         Add it in your root build.gradle at the end of repositories:
-
+        '''gradle
         allprojects {
         		repositories {
         			...
@@ -16,8 +16,8 @@
         		}
         	}
 
-    Step 2. Add the dependency
-
+    ####Step 2. Add the dependency
+        '''gradle
         dependencies {
         	        compile 'com.github.ecliujianbo:LogUtils:v1.0.2'
         	}
